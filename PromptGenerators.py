@@ -39,6 +39,7 @@ class MADPromptGenerator:
             currentAgentInput = prevAgentsInputs[i][currentAgentIndex]
             fullPrompt = fullPrompt +  f"Your Answer: {currentAgentInput}" + "\n\n"
             prevAgentsInputs[i][currentAgentIndex] = " "
+            print(i,prevAgentsInputs[i])
             currentRoundAgentsContext = self.angentsAnsGuide.format(*(prevAgentsInputs[i]))
             fullPrompt = fullPrompt + "These are the recent/updated opinions from other agents:"+ currentRoundAgentsContext + "\n \n"
             prevAgentsInputs[i][currentAgentIndex] = currentAgentInput
