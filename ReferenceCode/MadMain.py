@@ -1,5 +1,5 @@
-import ProcessHandler
-import PromptGenerators
+import ReferenceCode.ProcessHandler as ProcessHandler
+import ReferenceCode.PromptGenerators as PromptGenerators
 import numpy as np
 
 if __name__ == "__main__":

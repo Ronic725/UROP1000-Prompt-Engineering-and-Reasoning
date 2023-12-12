@@ -1,9 +1,9 @@
-import PromptGenerators
+import ReferenceCode.PromptGenerators as PromptGenerators
 import openai
 from langchain.llms import OpenAI
 import time 
 
-openaiApiKey = 'your-api-key'
+openaiApiKey = ''
 
 class ProcessHandler:
     def __init__(self,promptFString):

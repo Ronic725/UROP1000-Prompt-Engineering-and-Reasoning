@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = 'your-api-key'
+openai.api_key = ''
 
 def create_message(role, content):
     return {'role': role, 'content': content}
