@@ -1,0 +1,24 @@
+no strategy:
+The wind is most likely applying force to the sails of the boat from the northwest direction.
+
+Suppose for the sake of contradiction that there are no four people who are friends of each other. Then, consider any one person in the group, say person A. By assumption, person A has 7 friends among the other 9 people. 
+Case 1: None of A's friends are friends with each other. In this case, we can choose any one of A's friends, say person B. Then, B has 7 friends among the other 9 people (excluding A and B themselves). Since none of A's friends are friends with each other, B must have at least 6 new friends among the remaining 8 people. But then, there must be at least one person who is friends with both A and B, which contradicts our assumption.
+Case 2: At least two of A's friends are friends with each other. Without loss of generality, assume that person B and person C are friends with each other. Then, B and C each have 6 friends among the remaining 7 people (excluding A, B, and C themselves). Since there are only 7 people left, there must be at least one person who is friends with both B and C. Without loss of generality, assume that person D is friends with both B and C. Then, A, B, C, and D form a group of 4 people who are friends with each other, which contradicts our assumption.
+Since both cases lead to a contradiction, we can conclude that there must be at least four people who are friends of each other.
+
+CoT:
+First, we need to understand the direction of the river current. Since the current is flowing north, we can assume that it is perpendicular to the direction of the boat's travel, which is northeast. This means that the river current is not affecting the direction in which the boat is traveling, but it is affecting the boat's speed.
+Next, we need to understand the effect of the wind on the boat's sails. Since the boat is traveling northeast, the wind is likely coming from the southwest or the northwest. If the wind is coming from the southwest, it will be blowing directly into the sails, providing a strong force that will help push the boat forward. If the wind is coming from the northwest, it will be blowing across the sails at an angle, which will provide a less direct force and may cause the boat to turn slightly.
+Therefore, the wind is most likely applying force to the sails of the boat from the southwest.
+
+We can prove this using the Pigeonhole Principle. 
+
+First, let's assume that there are no 4 people who are friends of each other. 
+Each person has 7 friends among the other 9 people. So, we can divide the 10 people into 10 groups of 7 friends each. 
+Let's consider one person, say person A. Person A has 7 friends, so they belong to 7 different groups. Let's call these groups G1, G2, G3, G4, G5, G6, and G7. 
+Now, let's consider one of the friends of person A, say person B. Person B also has 7 friends, so they also belong to 7 different groups. However, since person A is already in 7 groups, there must be at least one group that person B belongs to that person A is also in. Let's assume without loss of generality that person B belongs to group G1. 
+Now, let's consider another friend of person A, say person C. Person C also has 7 friends, so they also belong to 7 different groups. However, since person A and person B are already in group G1, there must be at least one group that person C belongs to that person A and person B are also in. Let's assume without loss of generality that person C belongs to group G2. 
+We can continue this process, adding new people and new groups, but we will eventually run out of groups to add people to. This is because each person can only belong to 7 different groups, and there are only 10 people in total. 
+So, we must have a situation where there are at least 3 people (A, B, and C) who belong to groups G1 and G2. But since each group has 7 people, there must be at least one other person who belongs to both G1 and G2. Let's call this person D. 
+Now we have 4 people (A, B, C, and D) who belong to both G1 and G2. But since G1 and G2 are groups of friends, this means that A, B, C, and D are all friends with each other. 
+Therefore, we have proven that there must exist 4 people who are friends of each other in the group of 10 people.
